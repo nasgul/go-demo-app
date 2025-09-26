@@ -19,6 +19,8 @@ func api(ctx *fasthttp.RequestCtx) {
 	//	fmt.Fprintf(ctx, "Hi there! RequestURI is %q", ctx.RequestURI())
 	//}
 
+	// new changes
+
 	//func api(w http.ResponseWriter, r *http.Request) {
 	// increment counter
 	REQ0 = REQ0 + 1
